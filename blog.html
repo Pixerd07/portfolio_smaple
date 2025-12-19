@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog | Gurshant Mohal</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body{
+            background: linear-gradient(to right, #f4d2be, #ffb899);
+        }
+
+        .blog-hero{
+            padding: 80px 10%;
+            text-align: center;
+        }
+
+        .blog-hero h1{
+            font-size: 42px;
+            margin-bottom: 10px;
+        }
+
+        .blog-hero p{
+            font-size: 18px;
+            color: #444;
+        }
+
+        .blog-container{
+            padding: 40px 10%;
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+        }
+
+        .blog-card{
+            background: #fff6f1;
+            padding: 30px;
+            border-radius: 14px;
+            box-shadow: 0 4px 14px rgba(0,0,0,0.1);
+            transition: 0.3s;
+        }
+
+        .blog-card:hover{
+            transform: translateY(-5px);
+        }
+
+        .blog-card h2{
+            font-size: 26px;
+            margin-bottom: 10px;
+        }
+
+        .blog-card p{
+            color: #555;
+            margin-bottom: 15px;
+            line-height: 1.6;
+        }
+
+        .blog-card a{
+            text-decoration: none;
+            color: #ff6b3d;
+            font-weight: bold;
+        }
+
+        .blog-card a:hover{
+            text-decoration: underline;
+        }
+
+        footer{
+            text-align: center;
+            padding: 20px;
+            background: #f39c6a;
+            color: white;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html#about">About</a></li>
+            <li><a href="index.html#projects">Projects</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="index.html#contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section class="blog-hero">
+    <h1>My Blog</h1>
+    <p>Thoughts, learning experiences, and personal growth in tech and life.</p>
+</section>
+
+<section class="blog-container">
+
+    <div class="blog-card">
+        <h2>Why I Started Learning Web Development</h2>
+        <p>
+            I started web development out of curiosity. Over time, it became a way
+            to express creativity while building logical thinking.
+        </p>
+        <a href="#">Read more →</a>
+    </div>
+
+    <div class="blog-card">
+        <h2>My Journey with HTML & CSS</h2>
+        <p>
+            Learning HTML and CSS taught me how the web works. Small projects helped
+            me understand structure, design, and consistency.
+        </p>
+        <a href="#">Read more →</a>
+    </div>
+
+    <div class="blog-card">
+        <h2>How Consistency Changed My Learning</h2>
+        <p>
+            Instead of rushing, I focused on learning every day. Consistency helped
+            me improve faster and build confidence.
+        </p>
+        <a href="#">Read more →</a>
+    </div>
+
+</section>
+
+<footer>
+    &copy; Gurshant Mohal | 2025
+</footer>
+
+</body>
+</html>
